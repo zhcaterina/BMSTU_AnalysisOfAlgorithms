@@ -1,0 +1,57 @@
+﻿  stdafx.cpp
+  matrix.cpp
+c:\users\caterina\desktop\aalg\lab4\lab4\lab4\matrix.cpp(19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\caterina\desktop\aalg\lab4\lab4\lab4\matrix.cpp(232): warning C4244: +=: преобразование "const double" в "unsigned int", возможна потеря данных
+c:\users\caterina\desktop\aalg\lab4\lab4\lab4\matrix.cpp(244): warning C4244: +=: преобразование "const double" в "unsigned int", возможна потеря данных
+c:\users\caterina\desktop\aalg\lab4\lab4\lab4\matrix.cpp(257): warning C4244: +=: преобразование "const double" в "unsigned int", возможна потеря данных
+c:\users\caterina\desktop\aalg\lab4\lab4\lab4\matrix.cpp(273): warning C4244: +=: преобразование "const double" в "unsigned int", возможна потеря данных
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\type_traits(16707566): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\type_traits(16707566): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Invoker_pmf_pointer::_Call<_Ty,const Matrix*,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>(_Decayed,_Ty1 &&,std::reference_wrapper<const Matrix> &&,unsigned int &&,double &&,std::reference_wrapper<Matrix> &&) noexcept(false)"
+          with
+          [
+              _Ty=void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,
+              _Decayed=void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,
+              _Ty1=const Matrix *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\thr\xthread(240): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::invoke<void(__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix*,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>(_Callable &&,const Matrix *&&,std::reference_wrapper<const Matrix> &&,unsigned int &&,double &&,std::reference_wrapper<Matrix> &&) noexcept(false)"
+          with
+          [
+              _Callable=void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\thr\xthread(248): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_LaunchPad<_Target>::_Execute<0,1,2,3,4,5>(std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>> &,std::integer_sequence<_Ty,0,1,2,3,4,5>)"
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>,std::default_delete<std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>>>,
+              _Ty=::size_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\thr\xthread(247): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_LaunchPad<_Target>::_Execute<0,1,2,3,4,5>(std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>> &,std::integer_sequence<_Ty,0,1,2,3,4,5>)"
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>,std::default_delete<std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>>>,
+              _Ty=::size_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\thr\xthread(244): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\thr\xthread(232): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept"
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>,std::default_delete<std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\thr\xthread(259): note: выполняется компиляция ссылки на экземпляр шаблон класс "std::_LaunchPad<_Target>"
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>,std::default_delete<std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\thread(48): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Launch<std::unique_ptr<std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>,std::default_delete<_Ty>>>(_Thrd_t *,_Target &&)"
+          with
+          [
+              _Ty=std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>,
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>,std::default_delete<std::tuple<void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix *,std::reference_wrapper<const Matrix>,unsigned int,double,std::reference_wrapper<Matrix>>>>
+          ]
+  c:\users\caterina\desktop\aalg\lab4\lab4\lab4\matrix.cpp(275): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::thread::thread<void(__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const,const Matrix*,std::reference_wrapper<const Matrix>,unsigned int&,const double&,std::reference_wrapper<Matrix>,void>(_Fn &&,const Matrix *&&,std::reference_wrapper<const Matrix> &&,unsigned int &,const double &,std::reference_wrapper<Matrix> &&)"
+          with
+          [
+              _Fn=void (__thiscall Matrix::* )(const Matrix &,unsigned int,unsigned int,Matrix &) const
+          ]
+  Lab4.cpp
+  Создание кода...
+  Lab4.vcxproj -> C:\Users\caterina\Desktop\AAlg\Lab4\Lab4\Debug\Lab4.exe
